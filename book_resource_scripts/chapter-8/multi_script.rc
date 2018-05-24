@@ -1,0 +1,2 @@
+run post/windows/gather/checkvm
+run post/windows/manage/migrate

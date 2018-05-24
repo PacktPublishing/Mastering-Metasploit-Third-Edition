@@ -1,0 +1,10 @@
+bind F1 {
+$sid ="3";
+spawn(&gu, \$sid);  
+} 
+sub gu{  
+m_cmd($sid,"getuid");
+on meterpreter_getuid {
+show_message( " $3 ");
+}
+}

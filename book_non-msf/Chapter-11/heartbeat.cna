@@ -1,0 +1,15 @@
+on heartbeat_15s {
+local('$sid');
+foreach $sid (session_ids()) {
+if (-iswinmeterpreter $sid && -isready $sid) {  
+m_cmd($sid, "getuid");
+m_cmd($sid, "getpid");
+on meterpreter_getuid {
+println(" $3 ");
+}
+on meterpreter_getpid {
+println(" $3 ");
+}
+}
+}
+}

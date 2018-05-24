@@ -1,0 +1,4 @@
+checkvm
+migrate -n explorer.exe
+get_env
+event_manager -i

