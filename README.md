@@ -8,7 +8,30 @@ In the next section, you’ll develop the ability to perform testing on various 
 By the end of the book, you will be trained specifically on time-saving techniques using Metasploit.
 
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+All of the code is organized into folders.
+
+#To load all the modules automatically to metasploit:
+
+./msfrun.sh
+
+
+#Manual Method
+#To Load all the core metasploit modules(exploit, auxiliary, post):
+
+msf > loadpath /root/Desktop/Mastering-Metasploit/modules/
+
+Loaded 12 modules:
+
+    2 auxiliarys
+
+    3 posts
+
+    7 exploits
+
+#To Load all the meterpreter scripts:
+
+1. Copy all modules from book_meterpreter_scripts to /usr/share/metasploit-framework/scripts/meterpreter
+
 
 
 
@@ -27,5 +50,3 @@ This book targets professional penetration testers, security engineers, and law 
 
 * [Advanced Infrastructure Penetration Testing](https://www.packtpub.com/networking-and-servers/advanced-infrastructure-penetration-testing?utm_source=github&utm_medium=repository&utm_campaign=9781788624480)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
