@@ -10,13 +10,13 @@ By the end of the book, you will be trained specifically on time-saving techniqu
 ## Instructions and Navigation
 All of the code is organized into folders.
 
-### To load all the modules automatically to metasploit:
+#### To load all the modules automatically to metasploit:
 
-./msfrun.sh
+    ./msfrun.sh
 
 
 ### Manual Method
-#To Load all the core metasploit modules(exploit, auxiliary, post):
+#To Load all the core metasploit module (exploit, auxiliary, post):
 
 msf > loadpath /root/Desktop/Mastering-Metasploit/modules/
 
