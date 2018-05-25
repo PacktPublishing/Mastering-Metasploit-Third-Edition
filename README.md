@@ -16,7 +16,7 @@ All of the code is organized into folders.
 
 
 ### Manual Method
-#### To Load all the core metasploit module (exploit, auxiliary, post):
+#### To load all the core metasploit module (exploit, auxiliary, post):
 
 msf > loadpath /root/Desktop/Mastering-Metasploit/modules/
 
@@ -28,9 +28,9 @@ Loaded 12 modules:
 
     7 exploits
 
-### To Load all the meterpreter scripts:
+### To load all the Meterpreter scripts:
 
-1. Copy all modules from book_meterpreter_scripts to /usr/share/metasploit-framework/scripts/meterpreter
+Copy all modules from book_meterpreter_scripts to /usr/share/metasploit-framework/scripts/meterpreter
 
 
 
