@@ -16,7 +16,7 @@ All of the code is organized into folders.
 
 
 ### Manual Method
-#To Load all the core metasploit module (exploit, auxiliary, post):
+#### To Load all the core metasploit module (exploit, auxiliary, post):
 
 msf > loadpath /root/Desktop/Mastering-Metasploit/modules/
 
